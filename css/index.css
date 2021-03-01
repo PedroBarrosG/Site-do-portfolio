@@ -1,0 +1,57 @@
+
+        
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            background-color: #00b894;
+            border-bottom: 10px solid #2d3436;
+            padding: 10px 20px;
+            align-items: center
+            
+        }      
+
+        nav {
+            text-align: right;
+           
+
+        }
+        a {
+            display: inline-flex;
+            align-items: center;
+            color: white;
+            font-size: 20px;
+            font-family: "Fira Code", Arial, Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            text-decoration: none;
+            margin-right: 30px;
+
+        }
+        a::before {
+            content: "";
+            background-color: #ff7675;
+            width: 10px;
+            height: 10px;
+            margin-right: 10px;
+            
+        }
+
+        #downloadbutton {
+            color: black;
+            display: inline-block;
+            background-color: #ff7675;
+            height: 30px;
+            line-height: 30px;
+            padding: 18px 20px;
+            box-shadow: 5px 5px 0px black;
+            border-radius: 15px;
+            margin-right: 0px;
+            transition: transform 250ms cubic-bezier(0.44,-0.29, 0.74, 0.05);
+            
+
+        }
+
+        #downloadbutton:hover {
+            transform: scale(1.10);
+            background-color: #da6565;
+        }

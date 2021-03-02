@@ -4,12 +4,15 @@
         header {
             display: flex;
             justify-content: space-between;
-            background-color: #00b894;
-            border-bottom: 10px solid #2d3436;
+            background-color: #46344E;
+            border-bottom: 5px solid black;
             padding: 10px 20px;
             align-items: center
             
         }      
+        body {
+            background-color: blueviolet;
+        }
 
         nav {
             text-align: right;
@@ -20,8 +23,8 @@
             display: inline-flex;
             align-items: center;
             color: white;
-            font-size: 20px;
-            font-family: "Fira Code", Arial, Arial, Helvetica, sans-serif;
+            font-size: 23px;
+            font-family: "Fjalla One", "Fira Code", Arial, Arial, Helvetica, sans-serif;
             font-weight: 500;
             text-decoration: none;
             margin-right: 30px;
@@ -29,22 +32,23 @@
         }
         a::before {
             content: "";
-            background-color: #ff7675;
+            background-color: #faed26;
             width: 10px;
             height: 10px;
             margin-right: 10px;
+            border-radius: 1px;
             
         }
 
         #downloadbutton {
             color: black;
             display: inline-block;
-            background-color: #ff7675;
+            background-color: #faed26;
             height: 30px;
             line-height: 30px;
             padding: 18px 20px;
             box-shadow: 5px 5px 0px black;
-            border-radius: 15px;
+            border-radius: 5px;
             margin-right: 0px;
             transition: transform 250ms cubic-bezier(0.44,-0.29, 0.74, 0.05);
             
@@ -53,5 +57,5 @@
 
         #downloadbutton:hover {
             transform: scale(1.10);
-            background-color: #da6565;
+            background-color: #d66245;
         }

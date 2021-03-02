@@ -57,5 +57,11 @@
 
         #downloadbutton:hover {
             transform: scale(1.10);
-            background-color: #d66245;
+            background-color: #e6d822;
+        }
+
+        #sobre:hover, #meusprojetos:hover, #skills:hover, #contatos:hover {
+            padding-bottom: 1px;
+            border-bottom-style: solid;
+            border-bottom-width: 2.5px;
         }
